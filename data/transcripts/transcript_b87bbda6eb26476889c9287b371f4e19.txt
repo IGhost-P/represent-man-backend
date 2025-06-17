@@ -1,0 +1,55 @@
+<Person1> <prosody rate="medium" pitch="+0%">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we have a fascinating candidate's profile to delve into, focusing on their practical experience and potential for growth.</prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+2%">I'm eager to discuss this profile.  It looks like we have a candidate with a blend of design and development experience, which is always intriguing.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+0%">(scratchpad)
+```
+Let's start by outlining the candidate's educational and community involvement background before moving into their professional experiences.  This will give us a holistic view.
+```
+<break time="0.1s"/>Yes, precisely.  They have a background in Digital Media Design from Kaywon University, both an associate's and a bachelor's degree.  This suggests a strong foundation in visual design principles.  They also participated in 42SEOUL, a software development program, indicating a commitment to expanding their technical skills.  <break time="0.1s"/> Um, <break time="0.1s"/>their involvement in various IT communities like NEXTERS, SIPE, and Depromeet shows a proactive approach to learning and networking.  I see they even founded and managed a thriving club with over 100 members!  Impressive.
+</prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+2%">(scratchpad)
+```
+Highlight the candidate's specific contributions and quantifiable achievements within each role, emphasizing their impact.
+```
+Absolutely.  <break time="0.1s"/>Their experience developing the front-end for a global agricultural data platform demonstrates practical application of their skills.  I'm also interested in their internship where they led the planning and front-end development for a workout log social network app.  <emphasis>Quantifiable achievements</emphasis> are always a plus. For example, they mention contributing to service quality improvements in over 10 projects, achieving a 10% increase in Google search traffic through SEO optimization, and improving operational efficiency by developing an internal admin system. These are tangible results that speak to their capabilities.
+</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+0%">(scratchpad)
+```
+Discuss the candidate's problem-solving abilities and how they addressed specific challenges in their projects.
+```
+<break time="0.1s"/>Good point.  Let's talk about their problem-solving skills.  The profile highlights a situation where they addressed declining website traffic due to budget cuts and language support reduction.  They tackled this by creating a system to automatically generate over 100,000 landing pages based on country and product combinations.  Their use of tools like Amplitude and Google Search Console for tracking and improvement showcases a data-driven approach.  <break time="0.1s"/>Another example is their initiative in streamlining internal operations by replacing inefficient Excel and Slack-based workflows with a centralized admin system.  This demonstrates their ability to identify and address inefficiencies.
+</prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+2%">(scratchpad)
+```
+Analyze the candidate's soft skills, including collaboration and communication, based on the provided information.
+```
+<break time="0.1s"/>Their profile also hints at strong soft skills.  They mention collaborating with diverse stakeholders and leading UX improvements to address seasonal traffic fluctuations, which suggests experience in teamwork and communication.  <break time="0.1s"/> Uh, <break time="0.1s"/> leading a club with over 100 members certainly requires strong leadership and organizational skills.  Their experience as an operations and finance manager for an IT community further strengthens this point.
+</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+0%">(scratchpad)
+```
+Summarize the candidate's key strengths and potential areas for growth.  Offer a concluding thought on their overall suitability.
+```
+<break time="0.1s"/>Overall, this candidate presents a compelling mix of technical skills, design sensibilities, and soft skills.  Their proactive involvement in communities, coupled with their quantifiable achievements in various roles, makes them a strong contender.  <break time="0.1s"/>While their technical expertise seems geared towards front-end development, their background in design and experience with diverse projects suggest adaptability and a willingness to learn.  <break time="0.1s"/>Perhaps exploring their back-end development experience or aspirations would be beneficial in a full interview.  Got it?
+</prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+2%">(scratchpad)
+```
+Agree with Person1's assessment and add a final thought about the candidate's potential.
+```
+I agree.  This candidate demonstrates a strong foundation and a clear trajectory for growth.  Their passion for technology and commitment to continuous learning are evident.  I’m particularly impressed by their proactive approach to problem-solving and their ability to drive tangible results.  They seem like a valuable asset to any team.
+</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+0%">Thank you for joining us for this TECH INTERVIEW SIMULATION.  We hope you found this profile discussion insightful.  Until next time, goodbye!</prosody></Person1>

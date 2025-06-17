@@ -1,0 +1,25 @@
+<Person1> "Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're delving into the career and experiences of a promising front-end developer.  I'm particularly interested in understanding the depth of their technical expertise and problem-solving abilities." </Person1>
+
+<Person2> "Absolutely!  This candidate, Sangwoo Yang, has a compelling background.  Three years of experience focusing on TypeScript, React, and Vue.js is a solid foundation, especially with experience in large-scale game development." </Person2>
+
+<Person1> "Yes, the projects listed, particularly the illegal activity detection system and the AI-based web game, suggest a strong understanding of complex systems.  <emphasis>Data mining</emphasis> to identify patterns in user behavior is a valuable skill in game development, especially for tackling issues like <say-as interpret-as="characters">botting</say-as> and fraudulent activities.  Did you notice how they quantified the impact of their work?  Preventing 700 million won in illicit gains per quarter is a significant achievement." </Person1>
+
+<Person2> "Indeed.  Quantifying the impact like that really demonstrates the value they brought to the team.  It also speaks to their data-driven approach to decision-making, which they highlighted in their introduction.  The tech stack listed is also quite comprehensive: Redis, MySQL, Elasticsearch, AWS, Kubernetes, CI/CD – these are all highly relevant technologies in today's development landscape." </Person2>
+
+<Person1> "I'm also impressed with their proactive approach to system improvement.  Transitioning from MySQL to Elasticsearch for optimized historical data storage and leveraging S3 for archiving demonstrates a practical understanding of database management and cost optimization.  It shows they're not just coding, but thinking about the bigger picture." </Person1>
+
+<Person2> "Their work on the illegal activity detection system seems particularly impactful.  Building an API to enforce restrictions based on data mining results, and then improving the API response time from one minute to two seconds is a significant performance boost. That kind of optimization can have a real impact on user experience and system efficiency." </Person2>
+
+<Person1> "It's also interesting to see their focus on empowering other teams.  Developing a console for analysts and game managers to directly manage illegal activities likely freed up considerable developer time.  This shows a good understanding of building tools that empower others and improve overall workflow." </Person1>
+
+<Person2> "And the proactive implementation of testing frameworks like Playwright and Sentry further solidifies their commitment to quality and stability.  Catching issues early in the development cycle can save a significant amount of time and resources down the line.  I see they also mentioned i18n, suggesting they have experience with internationalization, which is crucial for games with a global audience." </Person2>
+
+<Person1> "One area I'd be curious to explore further is their experience with AI in game development. While they mentioned developing an AI-based web game, it would be valuable to understand the specifics of their involvement and the technologies used.  Perhaps they utilized machine learning algorithms for game logic or opponent AI." </Person1>
+
+<Person2> "I agree. A deeper dive into the AI aspects would definitely be beneficial.  Also, while they mentioned Terraform and Kubernetes, understanding the scale of their deployments and their specific roles in managing those technologies would be valuable.  Did they manage large clusters or focus on specific deployments?"</Person2>
+
+<Person1> "Overall, Sangwoo Yang presents a strong profile.  His experience with modern web technologies, coupled with a data-driven approach and a focus on practical solutions, makes him a promising candidate.  I'd be interested in learning more about his collaborative skills and problem-solving approach in a team setting." </Person1>
+
+<Person2> "I concur.  He has a strong foundation and a clear understanding of the challenges and opportunities in game development.  His proactive approach to system improvement and focus on quantifiable results are particularly impressive." </Person2>
+
+<Person1>  "Thank you for joining us for this Tech Interview Simulation. We hope you've gained valuable insights into evaluating technical talent. Until next time, goodbye!" </Person1>

@@ -1,0 +1,30 @@
+<Person1> <prosody rate="medium" pitch="+0st">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we have a promising candidate, and we'll be delving into their experience and projects.  Let's get started.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Excited to be here! Ready to discuss my background and projects.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">Your resume mentions 3 years of front-end development experience with TypeScript, React, and Vue.  That’s a great foundation.  I'm particularly interested in your work on the illegal activity detection system for a large-scale game service. Can you tell us more about that?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Certainly. The project aimed to address the growing problem of illicit activities like <emphasis>macro usage</emphasis> and large-scale operations disrupting the game's economy and player experience. The existing post-incident approach was slow, leading to player frustration and delayed action. We developed a proactive system using data mining to identify patterns in character creation and login behavior, enabling us to preemptively restrict access for suspected illegal activity.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">I see, interesting.  So you moved from a reactive to a proactive strategy. Can you elaborate on the data mining techniques used?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">The data mining team modeled user behavior based on various factors including login frequency, location, character progression speed, and in-game transactions.  These models were used to establish thresholds and trigger alerts for suspicious activity.  <emphasis level="reduced">Um,</emphasis> the system integrates with 33 games, including MapleStory, Dungeon & Fighter, and FIFA, and has proven quite effective, suppressing approximately 700 million won worth of illegal asset acquisition per quarter.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">700 million won! That's a significant impact.  Your resume also lists a variety of technologies, including Redis, MySQL, Elasticsearch, and Kubernetes.  How were these used in the project?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">We used Redis to cache frequently accessed read-only data, which dramatically reduced API response times from one minute to two seconds.  Historical data was stored in MySQL initially, but we later migrated to Elasticsearch for improved scalability and analytical capabilities.  Older data was then archived to S3 using cron jobs.  We also leveraged AWS EKS for container orchestration and GitLab CI/CD and ArgoCD for continuous deployment.  <emphasis>Uh,</emphasis> for monitoring and error tracking, we used Grafana and Sentry, respectively. And, <emphasis>you know</emphasis>, Playwright was crucial for end-to-end testing.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">Got it.  It seems you've worked on both the back-end and front-end of this system.  What specific front-end work did you contribute?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">I developed the front-end console for the illegal activity detection system. This console provides a user-friendly interface for analysts and game managers to monitor suspicious activities, manage restrictions, and review logs. This streamlined their workflow and reduced management overhead. The implementation of Playwright for E2E testing and Sentry for error tracking significantly improved the stability and reliability of the front-end application.  We also integrated i18n for internationalization.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">Implementing i18n demonstrates foresight.  That’s a good practice.  Now, you mentioned transitioning from MySQL to Elasticsearch.  What challenges did you encounter during that migration, and how did you overcome them?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">The main challenge was ensuring data consistency during the transition.  We implemented a phased migration approach, gradually shifting data in batches while validating the integrity at each step.  We also had to adjust our querying logic to accommodate Elasticsearch’s syntax and features.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+0st">Excellent. It sounds like you have a solid understanding of building and scaling complex systems.  I’m impressed with your proactive approach and the significant impact you made on the game's ecosystem.  Any questions for me?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Not at the moment, but thank you for the insightful conversation.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+0st">Thank you for joining us today. We appreciate your time. And to our listeners, thank you for tuning into Tech Interview Simulation.  We hope you found this discussion informative. Until next time, goodbye! </prosody></Person1>

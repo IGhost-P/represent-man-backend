@@ -1,0 +1,31 @@
+<Person1> <prosody rate="medium" pitch="+2st"> 어서 오세요, 한국어 기술 면접 시뮬레이션에 오신 여러분 환영합니다!  오늘은 양상우님의 프론트엔드 개발자 이력서를 함께 살펴보면서 기술 면접을 시뮬레이션 해보겠습니다.  자, 그럼 시작해 볼까요? </prosody> </Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st"> 네, 준비되었습니다. </prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st"> 양상우님의 이력서를 보니 3년 차 프론트엔드 개발자로서 TypeScript와 React, Vue를 사용한 경험이 눈에 띄네요. 특히 대규모 게임 서비스에서 불법 작업장 탐지 시스템 개발 경험은 흥미롭습니다. 이 프로젝트에 대해 좀 더 자세히 설명해주시겠어요? </prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st"> 네, 플랫폼쉴드팀에서 불법 작업장 접근 차단 시스템을 개발하고 운영했습니다.  불법 작업장의 매크로나 대규모 작업장 이용으로 게임 시장 경제 불균형이 심각했고, 사후 처리 과정에서 오차단으로 인한 유저 불만과 늦은 대응이 문제였습니다. Data Mining을 통해 유저의 캐릭터 생성 및 접속 패턴을 모델화하여 사전에 불법 작업장을 제재하는 시스템을 개발했습니다.  <emphasis>메이플스토리, 던전앤파이터, FIFA 등 33개 게임에 연동하여 분기별 7억 원의 불법 재화 획득을 억제하는 성과</emphasis>를 달성했습니다.  </prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st"> 음, 7억 원이라는 숫자가 상당히 인상적이네요.  구체적으로 어떤 기술 스택을 사용했고, 본인이 담당했던 역할은 무엇이었는지 설명해주시겠어요? </prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st"> 주로 React, Vue, TypeScript를 프론트엔드에 사용했고, 백엔드는 Redis, MySQL, Elasticsearch를 활용했습니다.  AWS(EKS, S3), Terraform, Kubernetes, GitLab CI/CD, ArgoCD, Sentry, Grafana, Playwright, i18n 등 다양한 기술을 사용했습니다.  저는 <emphasis>불법 작업장 접근 차단 시스템 API 개발 및 개선, 그리고 관리 콘솔 FE 개발</emphasis>을 담당했습니다. API 개발에서는 데이터 분석가분들이 Data Mining을 통해 예측한 불법 작업장 패턴을 rule로 만들어 게임 서버의 API 허용 여부를 판단하는 로직을 구현했습니다.  </prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st">  데이터베이스 최적화 작업도 진행하셨다고 되어 있는데, 어떤 방식으로 진행했는지 궁금합니다. </prosody> </Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st"> 네, read-only 데이터와 historical 데이터를 구분하여 Redis와 MySQL에 각각 적재하여 API 허용 로그 조회 시간을 기존 1분에서 2초로 단축했습니다. 또한 MySQL을 Elasticsearch로 변경하고, 오래된 historical 데이터는 cron job을 이용해 S3로 적재하는 flow를 개발하여 DB 용량 최적화 및 데이터 분석가분들의 분석 편의성을 높였습니다. </prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st">  훌륭하네요.  마지막으로, 앞으로 어떤 개발자가 되고 싶은지, 포부를 말씀해주시면 좋겠습니다. </prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st">  끊임없이 배우고 성장하는 개발자가 되고 싶습니다.  새로운 기술을 배우는 데 두려움이 없고, 실측 데이터에 기반한 기술 의사결정을 중요하게 생각합니다. 앞으로도  <emphasis>사용자에게 가치를 제공하는 서비스를 개발하고,  팀에 긍정적인 영향을 줄 수 있는 개발자</emphasis>로 성장하고 싶습니다.  </prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st"> 네, 양상우님의 열정과 경험 잘 들었습니다.  오늘 한국어 기술 면접 시뮬레이션을 함께 해주셔서 감사합니다. 청취자 여러분께서도 기술 면접 준비에 도움이 되셨기를 바랍니다.  다음 시간에 또 다른 흥미로운 주제로 찾아뵙겠습니다. </prosody></Person1>

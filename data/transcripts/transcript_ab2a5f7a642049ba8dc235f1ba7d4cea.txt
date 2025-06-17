@@ -1,0 +1,22 @@
+<Person1> <prosody rate="medium" pitch="+0%">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're delving into the impressive career journey of a front-end developer, focusing on practical experience and growth potential.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+2%">I'm eager to discuss this candidate's profile. Their experience with TypeScript, React, and Vue.js, especially within the gaming industry, seems quite relevant in today's market.  What initially caught your attention?</prosody></Person2>
+
+<Person1> <prosody rate="medium">Well, the candidate's involvement in developing an illegal operation detection system for a large-scale game service, coupled with their experience building an AI-based web game, speaks volumes about their ability to handle complex projects.  Their emphasis on modularization and test automation also suggests a strong understanding of robust system design principles.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1%"> Their current role at Platform Shield Team, developing and operating an illegal access blocking system, sounds particularly challenging.  Could you elaborate on their contributions?</prosody></Person2>
+
+<Person1> <prosody rate="medium">Certainly. The candidate describes tackling the issue of illicit activities within the gaming ecosystem, such as macro use and large-scale operations that disrupt the in-game economy. They developed a proactive system to address this, leveraging data mining to model user character creation and access patterns.  This allowed them to identify and sanction illegal operations *before* they could significantly impact the game.  The results are impressive:  integrating this system across 33 games, including MapleStory, Dungeon & Fighter, and FIFA, and suppressing approximately 700 million won in illegal asset acquisition per quarter.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+2%">700 million won! That's a significant impact.  Their technical skills, utilizing technologies like React, Vue, TypeScript, Redis, MySQL, Elasticsearch, AWS, and Kubernetes, seem well-aligned with modern development practices.  Did they mention any specific technical challenges they overcame?</prosody></Person2>
+
+<Person1> <prosody rate="medium">Yes, they detailed several key improvements to the illegal access blocking system.  For instance, they optimized API performance by separating read-only and historical data, utilizing Redis and MySQL respectively. This reduced API permission log query time from one minute to just two seconds.  They also migrated from MySQL to Elasticsearch for improved efficiency and archived older data to S3 using cron jobs.  This not only optimized database capacity but also facilitated data analysis for the data engineering team.  </prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1%"> It's also noteworthy that they developed a front-end console for managing the illegal operation blocking system.  This empowers analysts and game managers to directly monitor and manage these operations, reducing administrative overhead.  Their proactive adoption of tools like Playwright for E2E testing and Sentry for error monitoring further demonstrates their commitment to quality and stability.</prosody></Person2>
+
+<Person1> <prosody rate="medium">Indeed.  Their experience with internationalization (i18n) also suggests an awareness of global market considerations.  Overall, this candidate demonstrates a strong technical foundation, a proactive approach to problem-solving, and a proven track record of delivering impactful results in a demanding environment.  Their focus on data-driven decision-making and adaptability to new environments are particularly valuable assets.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+2%">  I agree.  This candidate's profile showcases a compelling blend of technical expertise and practical experience.  Their contributions to the gaming industry, particularly in combating illicit activities, are truly commendable.  They seem poised for continued growth and success in their career.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium">  Absolutely.  Thank you for joining us for this insightful discussion.  We hope you found this TECH INTERVIEW SIMULATION helpful.  Until next time, goodbye!</prosody></Person1>

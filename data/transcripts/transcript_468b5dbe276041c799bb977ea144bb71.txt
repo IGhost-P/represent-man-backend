@@ -1,0 +1,24 @@
+<Person1> "Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're delving into a fascinating profile of a front-end developer.  Let's explore their experience and potential." </Person1>
+<Person2> "Excellent! I'm particularly interested in seeing how this candidate's experience with TypeScript, React, and Vue.js translates into practical application.  A three-year track record in front-end development can tell us a lot." </Person2>
+
+<Person1> "Indeed.  This candidate has worked on some impressive projects, including a system to detect illicit activity in a large-scale game service and an AI-powered web game.  The emphasis on modularization and test automation speaks to a strong understanding of robust system design principles." </Person1>
+<Person2> "That's a great point.  Building and maintaining a complex system like an illicit activity detection system requires a deep understanding of not just front-end technologies, but also back-end integration and data processing.  <emphasis>Data mining</emphasis> is specifically mentioned, which is a key skill in this context." </Person2>
+
+<Person1> "Absolutely.  The candidate's description of their work on the 'Platform Shield Team' is quite insightful. They mention using data mining to model user behavior and proactively identify illicit activities, which is a significant step up from reactive measures.  The quantifiable results, like suppressing 700 million won worth of illicitly acquired assets per quarter, really highlight the impact of their work." </Person1>
+
+<Person2> "The technical details are impressive as well.  The candidate lists a wide range of technologies, from front-end frameworks like React and Vue.js to back-end technologies like Redis, MySQL, and Elasticsearch.  Their experience with AWS services, Kubernetes, and CI/CD pipelines also suggests a good grasp of DevOps practices." </Person2>
+
+<Person1> "I'm also intrigued by the mention of migrating from MySQL to Elasticsearch and archiving older data to S3. This demonstrates an understanding of data management and optimization, which is crucial for large-scale applications. Uh, the improvement in API response time from one minute to two seconds after optimizing data storage is a tangible example of their problem-solving skills." </Person1>
+
+<Person2> "The development of a front-end console for the illicit activity detection system is another noteworthy achievement.  It empowers analysts and game managers to directly manage these activities, reducing management overhead.  The use of Playwright for E2E testing and Sentry for error tracking further showcases their commitment to quality assurance." </Person2>
+
+<Person1> "I see.  One thing I'd like to explore further is how the candidate applied their <say-as interpret-as="characters">TypeScript</say-as> skills in these projects.  While it's listed in their skillset, I'd be interested in hearing specific examples of how it contributed to the overall code quality and maintainability." </Person1>
+
+<Person2> "Agreed.  It would also be beneficial to understand the candidate's approach to <emphasis>collaboration</emphasis>.  Working on a team, especially in a complex project like this, requires strong communication and teamwork skills." </Person2>
+
+<Person1> "Their work with data analysts to translate data mining results into actionable rules for the API is a good starting point for understanding their collaborative approach.  I’d like to know more about their experience with agile methodologies and how they contribute to a fast-paced development environment." </Person1>
+
+<Person2> "Overall, this candidate's profile demonstrates a strong technical foundation, practical experience with relevant technologies, and a results-oriented approach. Their focus on continuous improvement and data-driven decision-making is particularly promising." </Person2>
+
+
+<Person1> "I agree.  This candidate certainly has a lot to offer. Thank you for joining us today on TECH INTERVIEW SIMULATION. We hope you found this insightful. Until next time!" </Person1>

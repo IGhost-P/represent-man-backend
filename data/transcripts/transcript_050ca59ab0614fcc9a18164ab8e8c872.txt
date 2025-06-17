@@ -1,0 +1,35 @@
+<Person1> <prosody rate="medium" pitch="+2st">Welcome to TECH INTERVIEW SIMULATION  -  당신의 기술적 여정을 들려주세요. Today, we have a promising front-end developer candidate with us. Let's delve into their impressive background and experience.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Excited to be here! I'm eager to discuss my experience with TypeScript, React, and Vue.js, particularly my work on large-scale game services.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Your resume highlights a fascinating project: an illegal operation detection system for a large-scale game service. Can you elaborate on your role and the challenges you faced?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Certainly. I was responsible for developing and operating the system to block access from these illicit operations, which were disrupting the game's economy. One major challenge was minimizing false positives and ensuring timely intervention.  We used data mining to model user behavior, specifically character creation and login patterns. This allowed us to identify and preemptively restrict access from suspicious accounts.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Interesting.  So, a proactive approach rather than reactive. How did you measure the system's effectiveness?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">We integrated the system across 33 games, including titles like MapleStory, Dungeon Fighter Online, and FIFA.  This resulted in preventing an estimated 700 million KRW worth of illegal virtual asset acquisition per quarter, a significant impact on maintaining a fair gaming environment. </prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Impressive!  Your resume also mentions experience with a wide range of technologies - React, Vue, TypeScript, Redis, MySQL, Elasticsearch, and even cloud technologies like AWS and Kubernetes. Could you tell us about the technical decisions behind choosing these technologies for the illegal operation detection system?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Absolutely.  We used React and Vue.js for building the user interfaces, leveraging TypeScript for better code maintainability and scalability.  Redis was crucial for caching frequently accessed read-only data, which significantly improved API response times from one minute down to two seconds. We initially used MySQL for historical data, but later migrated to Elasticsearch for improved querying and analysis capabilities. Older data was then archived to S3 using cron jobs to optimize database size and facilitate data analysis by our data engineers.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st"><emphasis>Migrating from MySQL to Elasticsearch</emphasis> is a substantial change.  What were the key drivers behind that decision, and what benefits did you observe?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">The sheer volume of historical data was becoming difficult to manage efficiently with MySQL. Elasticsearch’s ability to handle complex queries and its distributed nature provided much better performance and scalability for our growing data needs. This also simplified the work for our data engineers who needed to analyze the data for trends and insights.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">I see.  And you mentioned developing a front-end console for the system. What functionalities did this console offer?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">The console provided a central monitoring and management interface for the system.  It allowed analysts and game managers to directly monitor suspicious activity, manage restrictions, and gain real-time insights into the system's performance.  This empowered them to react quickly and efficiently, reducing management overhead.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st">You also mentioned using Playwright and Sentry. How did these tools contribute to the project's success?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Playwright was instrumental for end-to-end testing, ensuring the stability and reliability of the system. Sentry provided robust error tracking and monitoring, which helped us quickly identify and address any issues that arose in production. These tools significantly improved the overall quality and stability of the system.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">This has been a truly enlightening conversation. Your experience and technical skills are quite impressive. Thank you for sharing your insights with us today.</prosody> </Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Thank you for the opportunity. I appreciate your time and the insightful questions.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st">That concludes our TECH INTERVIEW SIMULATION for today. Thank you for joining us, and we hope you found this discussion informative.  Until next time, goodbye!</prosody></Person1>

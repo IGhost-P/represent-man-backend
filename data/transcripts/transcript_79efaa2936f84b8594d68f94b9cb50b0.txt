@@ -1,0 +1,25 @@
+<Person1> <prosody rate="medium" pitch="+2st">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're diving into the career and experiences of a promising front-end developer.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">I'm eager to discuss this candidate's profile.  Their experience with TypeScript, React, and Vue.js, especially within the gaming industry, sounds quite compelling.  A three-year track record already shows dedication.</prosody></Person2>
+
+<Person1> <prosody rate="slow" pitch="+0st">Indeed.  The projects mentioned, like the illegal activity detection system and the AI-powered web game, suggest a strong understanding of complex systems.  Let's unpack the details of their work at "Platform Shield Team." This role focused on preventing unauthorized access, a crucial aspect of maintaining a healthy gaming ecosystem. </prosody><break time="0.1s"/> <emphasis>Um</emphasis>, <prosody rate="medium" pitch="+1st">I'm particularly interested in their approach to preemptive measures using data mining.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+2st">That's a key highlight.  They've tackled a significant issue: the economic imbalance caused by illicit activities like macro usage and large-scale botting.  The traditional reactive approach, dealing with consequences after the fact, often leads to player dissatisfaction and delayed action. This proactive system, based on user character creation and access patterns, seems far more effective.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+1st">Absolutely. And the results speak for themselves.  Integrating this system across 33 games, including titles like MapleStory, Dungeon Fighter, and FIFA, and suppressing 700 million won in illegal asset acquisition quarterly is a substantial achievement.  This demonstrates a practical, data-driven approach to problem-solving.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Their technical skills are also noteworthy.  <say-as interpret-as="characters">AWS (EKS, S3), Terraform, Kubernetes, GitLab CI/CD, ArgoCD, Sentry, Grafana, Playwright, and i18n</say-as>—this is a robust and modern tech stack.  It reflects an ability to work with cloud infrastructure, automation, monitoring, and testing.  <emphasis>Interesting.</emphasis></prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Let's delve into the specifics of the "Illegal Access Prevention System API Development & Improvement."  Creating rules based on restrict conditions predicted by data analysts, and using these to determine API access permissions on game servers, shows a clear understanding of security principles.  The performance improvements they achieved, reducing API permission log query time from one minute to two seconds by separating read-only and historical data, highlights their optimization skills.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st"><emphasis>Got it.</emphasis>  Migrating from MySQL to Elasticsearch and archiving older data to S3 using cron jobs demonstrates a good grasp of database management and cost optimization.  This also facilitates data analysis for data engineers.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+1st">The development of the "Illegal Access Prevention Console FE" is another significant contribution.  Creating a service screen for analysts and game managers to directly manage illegal activities empowers them and reduces management costs.  The integration of Playwright's E2E and Sentry enhances development test stability.</prosody></Person1>
+
+<Person2> <prosody rate="slow" pitch="+0st"> While the candidate's achievements are impressive, I’d like to see more details about their specific contributions within the team.  For instance, how did they collaborate with data analysts? What challenges did they face in implementing the system across diverse game environments?  Understanding these aspects would provide a more complete picture of their capabilities.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+1st">I agree.  Further exploration of their problem-solving approach and teamwork dynamics would be beneficial.  However, their profile showcases a strong foundation and a clear growth trajectory.  Their proactive approach to tackling complex challenges in the gaming industry is truly commendable.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+2st">Overall, this candidate presents a compelling combination of technical skills, practical experience, and a data-driven mindset.  Their contributions to improving the gaming ecosystem are significant.  I’m optimistic about their potential for future growth.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+1st">Excellent points.  Thank you for joining me in this discussion. We appreciate you tuning in to TECH INTERVIEW SIMULATION.  Until next time, keep innovating!</prosody></Person1>

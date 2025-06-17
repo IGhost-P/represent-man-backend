@@ -1,0 +1,29 @@
+<Person1> <prosody rate="medium" pitch="+2st">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're delving into the impressive work of a front-end developer with a strong background in TypeScript, React, and Vue.js.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Absolutely!  This candidate, Sangwoo Yang, has a compelling portfolio, including experience developing a system to detect illicit activities in a large-scale game service and working on AI-based web games.  His emphasis on modularization and automated testing points to a strong understanding of robust system design.</prosody></Person2>
+
+<Person1> <prosody rate="slow">I see. Interesting.</prosody> <prosody rate="medium" pitch="+2st">His current role within the Platform Shield Team is particularly intriguing. He mentions developing and operating a system to block unauthorized access from these illicit operations, often called "gold farms." Can you elaborate on the problem this system addresses?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Certainly. The candidate highlights the disruption these operations cause to the game's economy.  These "gold farms" use bots and large-scale operations to generate in-game currency and items, creating an unfair advantage and potentially devaluing legitimate player efforts.  He also mentions the challenges of reactive measures, leading to player dissatisfaction and delayed responses.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Got it. So, how did Mr. Yang approach this problem?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">He employed data mining to model user behavior, specifically character creation and login patterns. This proactive approach allows for the identification and restriction of these illicit operations *before* they significantly impact the game's economy. He specifically mentions impressive results, citing a quarterly suppression of 700 million KRW worth of illicitly acquired in-game assets across 33 games, including titles like MapleStory, Dungeon Fighter Online, and FIFA.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">700 million KRW! That's quite an achievement.  His technical skills seem extensive, listing technologies like React, Vue, TypeScript, Redis, MySQL, Elasticsearch, and even cloud infrastructure experience with AWS and Kubernetes.  Could you delve into the specifics of his contributions to the access blocking system?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">He describes several key contributions. Firstly, he developed the API for the blocking system, translating the data mining insights into actionable rules to restrict access.  He also improved API performance by optimizing data storage, separating read-only data in Redis and historical data in MySQL, resulting in significant query time reduction.  Further optimizations included migrating to Elasticsearch and archiving older data to S3.  This not only optimized database capacity but also improved data accessibility for analysis by data engineers.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Um, those are significant improvements.  He also mentions developing a front-end console.  What was the purpose of that?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">The console provides a monitoring and management interface for the blocking system.  This allows analysts and game managers to directly monitor and manage illicit activities, reducing management overhead.  He also integrated <say-as interpret-as="characters">Playwright</say-as> for E2E testing and <say-as interpret-as="characters">Sentry</say-as> for error tracking, enhancing development stability and reducing the frequency of issues.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">It sounds like he takes a very data-driven approach to problem-solving, which is excellent.  I'm curious, though – while migrating to Elasticsearch and S3 for historical data makes sense for long-term storage and analysis, did he mention any considerations about the potential latency impact for real-time blocking using Elasticsearch?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">That’s a good point. He doesn’t explicitly address the latency implications in this document.  However, given his focus on performance optimization elsewhere, it’s likely he considered this. Perhaps he implemented caching strategies or other optimizations to mitigate any potential latency issues. It would be beneficial to further explore this aspect during an interview.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Agreed.  Overall, this candidate demonstrates a strong technical foundation and a proactive approach to problem-solving.  His experience with various technologies and his clear contributions to a complex system make him a promising candidate. </prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Definitely. His focus on data-driven decision-making and his willingness to embrace new technologies are highly valuable assets. </prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">Well, thank you for joining me in this discussion.  This has been a fascinating look at a promising developer's profile.  Until next time, goodbye to our listeners!</prosody></Person1>

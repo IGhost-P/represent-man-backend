@@ -1,0 +1,29 @@
+<Person1> <prosody rate="medium" pitch="+2Hz">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we have a fascinating candidate with a blend of design and development experience. Let's delve into their background.</prosody></Person1>
+
+<Person2> <prosody rate="medium">Thanks for having me. I'm eager to discuss my experiences and how they've shaped my approach to software development.</prosody></Person2>
+
+<Person1> <prosody rate="medium">Excellent.  I see you've been actively involved in several communities like 500CLUB, Tridge, NEXTERS, and SIPE.  <break time="0.1s"/>Tell me, what drew you to these organizations, and what did you gain from participating?</prosody></Person1>
+
+<Person2> <prosody rate="medium">Well, I've always been drawn to collaborative environments where I can learn from others and contribute to meaningful projects.  <break time="0.1s"/>500CLUB and Tridge provided valuable networking opportunities and exposure to diverse perspectives within the tech industry. <break time="0.1s"/> NEXTERS and SIPE, with their focus on designer-developer collaboration, really resonated with my background in digital media design. <emphasis>These experiences helped me bridge the gap between design and development, fostering a holistic understanding of the product development lifecycle.</emphasis></prosody></Person2>
+
+<Person1> <prosody rate="medium">Interesting. <break time="0.1s"/> You mentioned a background in digital media design.  How has this informed your approach to software development?</prosody></Person1>
+
+<Person2> <prosody rate="medium">My design background has significantly influenced my development process. <break time="0.1s"/>  I approach problems with a user-centered mindset, always considering the end-user experience.  My coursework in UX design, prototyping, and branding has given me a strong foundation in understanding user needs and translating them into effective solutions. <break time="0.1s"/> This user-centric approach allows me to develop software that is not only functional but also aesthetically pleasing and intuitive.</prosody></Person2>
+
+<Person1> <prosody rate="medium">I see. <break time="0.1s"/> Your resume also highlights your involvement in 42SEOUL, an intensive software development program. <break time="0.1s"/> Can you elaborate on your experience there and how it contributed to your skillset?</prosody></Person1>
+
+<Person2> <prosody rate="medium">42SEOUL was a pivotal experience in my development journey. The peer-to-peer learning environment pushed me to become a more self-directed learner and problem solver. <break time="0.1s"/>  The rigorous curriculum, focused on C programming, provided a solid foundation in fundamental programming concepts. <break time="0.1s"/>  This experience significantly strengthened my technical skills and instilled a deep appreciation for collaborative learning.</prosody></Person2>
+
+<Person1> <prosody rate="medium">That's impressive. <break time="0.1s"/>  Let's talk about your project experience. You've worked on various projects, including a global agricultural data platform and an internal admin system. Could you discuss a project where you faced a significant challenge and how you overcame it?  </prosody></Person1>
+
+<Person2> <prosody rate="medium">Certainly. In the global agricultural data platform project, my role was front-end development. <break time="0.1s"/> We faced a significant drop in user engagement due to discontinued paid marketing and reduced language support. <break time="0.1s"/>  To address this, I took the initiative to improve SEO by implementing a system that automatically generated over 100,000 landing pages based on country and product combinations. <break time="0.1s"/> I also utilized tools like Amplitude and Google Search Console to track performance and identify areas for improvement.  <break time="0.1s"/> This resulted in a 10% increase in organic traffic from Google search, demonstrating the effectiveness of the SEO strategy.</prosody></Person2>
+
+<Person1> <prosody rate="medium">Got it. That's a commendable achievement. <break time="0.1s"/>  It shows initiative and a data-driven approach to problem-solving.  <break time="0.1s"/> Now, looking ahead, what are your career aspirations, and how do you see yourself growing as a developer?</prosody></Person1>
+
+<Person2> <prosody rate="medium">My goal is to become a highly skilled full-stack developer, capable of contributing to all aspects of the product development lifecycle.  <break time="0.1s"/> I'm particularly interested in exploring new technologies and frameworks, and I'm eager to continue honing my skills in both front-end and back-end development. <break time="0.1s"/>  I believe continuous learning is crucial in this ever-evolving field, and I'm committed to staying up-to-date with the latest advancements.</prosody></Person2>
+
+<Person1> <prosody rate="medium">That's a great attitude.  <break time="0.1s"/> Your passion for technology and your dedication to continuous learning are truly commendable.  It's been a pleasure learning about your background and aspirations. Thank you for sharing your insights with us today. </prosody></Person1>
+
+<Person2> <prosody rate="medium">Thank you for the opportunity. It was a pleasure discussing my experiences with you.</prosody></Person2>
+
+<Person1> <prosody rate="medium">And to our listeners, thank you for tuning in to TECH INTERVIEW SIMULATION.  We hope you found this conversation insightful.  Until next time, keep innovating! </prosody></Person1>

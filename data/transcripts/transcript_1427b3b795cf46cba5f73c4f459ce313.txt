@@ -1,0 +1,56 @@
+<Person1> <prosody rate="medium" pitch="+2st">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we have a promising front-end developer candidate, and we'll be diving deep into their provided background and experience.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Excited to be here!  I'm eager to discuss my passion for front-end development and the projects I've contributed to.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">(scratchpad)
+```
+Analyze the candidate's background focusing on their experience with TypeScript, React, Vue.js, and their work on the illegal activity detection system. Also, highlight their data-driven decision-making approach.
+```
+I see you have three years of experience with TypeScript, React, and Vue.js. That's a solid foundation. Your work on an illegal activity detection system for a large-scale game service, and an AI-based web game, sounds particularly interesting.  Tell me more about the challenges you faced and the solutions you implemented in these projects.  You mention a data-driven approach to decision-making – I appreciate that. Can you give me a specific example of how this played out in your work?
+</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">(scratchpad)
+```
+Explain the challenges faced due to illegal activities like macro use and large-scale operations, and the problems with the existing post-incident handling process. Describe the data mining approach used to model user behavior, and how it helped in preemptively blocking illegal activities. Quantify the impact of the new system with specific numbers.
+```
+Certainly. In the gaming world, illegal activities like macro use and large-scale operations by "illegal workshops" disrupt the game economy and create unfair advantages. Previously, dealing with these issues was reactive and often resulted in delayed responses and accidental bans of legitimate players.  This led to player frustration and damaged the game's reputation. To address this, we used data mining to model user behavior, specifically character creation and login patterns. This allowed us to identify and preemptively block suspicious activities. The impact was significant. We integrated this system across 33 games, including titles like MapleStory, Dungeon Fighter Online, and FIFA. This resulted in preventing an estimated 700 million KRW worth of illegal virtual currency acquisition per quarter.
+</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">(scratchpad)
+```
+Acknowledge the candidate's achievement and ask about the technical details of the system, focusing on the technologies used and the improvements made.
+```
+<emphasis>Impressive!</emphasis> Preventing that much illegal activity is a substantial achievement. Can you elaborate on the technical details of this system? What technologies did you use, and what specific improvements did you make to the existing infrastructure?
+</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">(scratchpad)
+```
+Detail the technologies used (React, Vue, TypeScript, Redis, MySQL, Elasticsearch, AWS, etc.) and explain the API development and improvement process. Mention the use of Redis for read-only data, MySQL for historical data, and the migration to Elasticsearch and S3 for optimization.
+```
+We utilized a variety of technologies.  The front-end was built using <say-as interpret-as="characters">React</say-as> and <say-as interpret-as="characters">Vue.js</say-as> with <say-as interpret-as="characters">TypeScript</say-as>. For data storage, we used <say-as interpret-as="characters">Redis</say-as> for read-only data and <say-as interpret-as="characters">MySQL</say-as> for historical data. Later, we migrated to <say-as interpret-as="characters">Elasticsearch</say-as> for improved search performance and archived older data to <say-as interpret-as="characters">AWS S3</say-as> for cost optimization.  We also used <say-as interpret-as="characters">AWS EKS</say-as> and various other tools like <say-as interpret-as="characters">Terraform</say-as>, <say-as interpret-as="characters">Kubernetes</say-as>, and <say-as interpret-as="characters">GitLab CI/CD</say-as>.  Specifically, for the API, we developed a rule-based system based on restrict conditions derived from data analysis.  This system determined whether to allow or deny API access from the game servers.  We improved the API response time for log retrieval from one minute down to two seconds by optimizing the data handling process.
+</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="+2st">(scratchpad)
+```
+Inquire about the front-end console development, specifically the features implemented for monitoring and management, and the benefits achieved. Also, ask about the testing strategies implemented.
+```
+Got it.  You also mentioned developing a front-end console. What features did this console offer, and how did it improve the management of these illegal activities? And, crucially, how did you ensure the quality and stability of your code?
+</prosody></Person1>
+
+
+<Person2> <prosody rate="medium" pitch="+1st">(scratchpad)
+```
+Describe the console's features for monitoring and managing illegal activities, highlighting its role in cost reduction. Discuss the implementation of Playwright for E2E testing and Sentry for error tracking, and how these tools contributed to improved stability.
+```
+The console provided a user-friendly interface for monitoring and managing illegal activities. This empowered analysts and game managers to directly handle these issues, reducing the need for dedicated engineering resources and significantly cutting down management costs.  For testing, we implemented <say-as interpret-as="characters">Playwright</say-as> for end-to-end testing and integrated <say-as interpret-as="characters">Sentry</say-as> for error tracking. These tools played a crucial role in improving the stability and reliability of the system, allowing us to catch and address issues early on.  Previously, testing was a quarterly affair, but with these tools, we moved towards a more continuous and robust testing approach.
+</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="+2st">(scratchpad)
+```
+Conclude the interview by expressing appreciation for the candidate's detailed explanations and wishing them luck.
+```
+This has been a very insightful conversation.  Thank you for explaining your work so thoroughly.  Your technical skills and experience, particularly in developing and implementing this system, are truly impressive. We appreciate your time and wish you the best of luck.
+</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="+1st">Thank you for the opportunity. It was a pleasure discussing my work with you.</prosody></Person2>

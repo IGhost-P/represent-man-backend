@@ -1,0 +1,20 @@
+<Person1> 한국어 기술 면접 시뮬레이션에 오신 여러분 환영합니다!  당신의 기술적 여정을 한국어로 들려주세요. 오늘 우리는 양상우님의 이력서와 프로젝트 경험을 바탕으로 프론트엔드 개발자로서의 역량을 살펴보는 시간을 갖도록 하겠습니다. 자, 먼저 양상우님의 3년차 개발자로서의 경험을  전반적으로  어떻게 평가하시겠습니까? </Person1>
+
+<Person2> 안녕하세요. 저는 3년 동안 TypeScript와 React, Vue를 기반으로 다양한 프로젝트를 수행하며 프론트엔드 개발자로서 꾸준히 성장해 왔습니다. 특히 대규모 게임 서비스 환경에서 불법 작업장 탐지 시스템 개발 및 AI 기반 웹 게임 개발 경험은  제 역량을  크게 발전시키는 계기가 되었습니다.  <emphasis>모듈화와 테스트 자동화</emphasis>를  통해 견고한 시스템 설계를  중시하며, 데이터 기반의 의사결정을  추구합니다.  새로운 기술과 환경에 대한  <emphasis>적극적인 학습 자세</emphasis> 또한  제 강점 중 하나라고 생각합니다. </Person2>
+
+<Person1> 음, 네.  데이터 기반 의사결정을  중요시한다는 점이 인상적이네요. 플랫폼쉴드팀에서 담당하셨던 불법 작업장 접근 차단 시스템 개발에 대해 좀 더 자세히 설명해주시겠습니까?  특히 어떤 기술적인 어려움이 있었고, 어떻게 극복했는지 궁금합니다. </Person1>
+
+<Person2> 네, 플랫폼쉴드팀에서 불법 작업장 접근 차단 시스템을 개발하면서 가장 어려웠던 점은 실시간으로 방대한 양의 데이터를 처리하면서도 정확하고 빠른 차단 로직을 구현하는 것이었습니다.  초기 시스템에서는 데이터 분석가분들이 제공해주신 restrict condition을 rule 기반으로 API 허용 여부를 판단했는데,  <prosody rate="slow">대량의 트래픽 발생 시</prosody>  처리 속도가  <emphasis>저하되는 문제</emphasis>가  발생했습니다.  이를 해결하기 위해 Redis를 활용하여 read-only 데이터를 캐싱하고, MySQL에는 historical data만 저장하는 방식으로 시스템을  <emphasis>개선</emphasis>했습니다.  API 허용 로그 조회 시간을 기존 1분에서 2초로 단축시켜 성능을  크게 향상시켰습니다.  또한, 데이터베이스 용량 최적화와 분석 편의성을  위해 MySQL을 Elasticsearch로 변경하고, 오래된 historical data는 S3에 저장하는 flow를 개발했습니다.  <break time="0.1s"/>  이러한  <emphasis>기술적인 개선</emphasis>을  통해 시스템의 안정성과 효율성을  <emphasis>크게 향상</emphasis>시킬  수 있었습니다. </Person2>
+
+<Person1> 아, 그렇군요.  MySQL에서 Elasticsearch로  마이그레이션하면서  <emphasis>인덱싱 전략</emphasis>이나  <emphasis>검색 쿼리 최적화</emphasis>  측면에서  어떤  고려사항들이  있었는지  좀 더  구체적으로  설명해주실  수  있을까요? </Person1>
+
+
+<Person2> 네, Elasticsearch로 마이그레이션하면서 가장 중요하게 고려했던 부분은 데이터의 특성에 맞는 인덱싱 전략을 수립하는 것이었습니다.  불법 작업장 탐지 시스템의 특성상,  <prosody pitch="+5%">실시간으로 발생하는  데이터의  양이  매우  방대하고</prosody>,  <prosody pitch="-5%">검색  쿼리의  종류도  다양했습니다.</prosody>  따라서  데이터  분석가분들과  긴밀하게  협력하여  <emphasis>frequently  사용되는  쿼리</emphasis>를  <emphasis>분석</emphasis>하고,  이를  기반으로  <emphasis>최적의  인덱싱  전략</emphasis>을  수립했습니다.  또한,  Elasticsearch의  <emphasis>분석  기능</emphasis>을  적극  활용하여  <emphasis>검색  쿼리의  성능</emphasis>을  <emphasis>지속적으로  모니터링</emphasis>하고  <emphasis>개선</emphasis>해  나갔습니다.  이러한  노력을  통해  시스템의  <emphasis>응답  속도</emphasis>를  <emphasis>획기적으로  단축</emphasis>시키고,  <emphasis>더욱  정확한  탐지  결과</emphasis>를  얻을  수  있었습니다. </Person2>
+
+
+<Person1> (고개를 끄덕이며)  훌륭하네요.  마지막으로 앞으로 어떤 개발자로 성장하고 싶은지,  포부를  말씀해주시면 좋겠습니다. </Person1>
+
+<Person2> 저는 단순히 주어진 업무만 처리하는 개발자가 아니라, <emphasis>새로운 기술을  적극적으로  학습</emphasis>하고  <emphasis>실제  서비스에  적용</emphasis>하여  <emphasis>가치를  창출하는  개발자</emphasis>로  성장하고  싶습니다.  끊임없이  변화하는  IT  환경  속에서  <emphasis>도전을  두려워하지  않고</emphasis>,  <emphasis>끊임없이  배우고  성장하며</emphasis>  <emphasis>사용자에게  최고의  경험을  선사하는  서비스</emphasis>를  만들어내는  것이  제  궁극적인  목표입니다. </Person2>
+
+
+<Person1> 네,  좋습니다.  양상우님의  열정과  경험을  높이  평가합니다.  오늘  면접에  참여해주셔서  감사합니다.  한국어 기술 면접 시뮬레이션을 마치겠습니다. 청취해 주셔서 감사합니다! </Person1>

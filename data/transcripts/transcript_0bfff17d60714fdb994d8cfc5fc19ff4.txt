@@ -1,0 +1,37 @@
+<Person1> <prosody rate="medium" pitch="medium">Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요. Today, we're delving into a candidate's background, focusing on their practical experience and potential for growth.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">Thanks for having me. I'm eager to discuss my experiences.</prosody></Person2>
+
+(scratchpad)
+```html
+<Person1> <prosody rate="medium" pitch="medium">Let's start with your involvement in NEXTERS and SIPE.  These communities seem to highlight a collaborative spirit. Tell me about your contributions and what you gained from these experiences.</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">NEXTERS and SIPE were instrumental in honing my collaboration skills.  In NEXTERS, working alongside designers and developers on diverse projects provided valuable insights into the dynamics of cross-functional teams.  SIPE, being tailored for working developers, offered a practical platform to exchange knowledge and learn from experienced professionals.  These experiences solidified my belief in the power of collaborative development.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">I see. That's a good demonstration of initiative and a desire to learn.  You also participated in 42SEOUL. Can you elaborate on your experience there and how it shaped your technical skills?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">42SEOUL, being an intensive software development program, was a significant turning point. The peer-to-peer learning environment, based on C, pushed me to deepen my understanding of fundamental programming concepts.  This experience instilled in me a problem-solving mindset and a passion for continuous learning, which are crucial in this ever-evolving field.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">Interesting.  Your background also includes involvement in Depromeet, another collaborative community.  How did this experience complement your previous involvements?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">Depromeet provided a more focused environment for building services from the ground up, collaborating closely with designers. This hands-on experience further refined my understanding of the entire development lifecycle, from ideation to deployment. It also enhanced my ability to bridge the gap between design and development, which I believe is essential for creating user-centric products.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">Got it.  Now let's talk about your project experiences. You mentioned working on a global agricultural data platform. What specific role did you play and what were the key challenges you faced?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">As a front-end developer for the platform, I was responsible for translating complex data into a user-friendly interface.  One of the main challenges was ensuring seamless performance across different devices and browsers.  This required rigorous testing and optimization, along with close collaboration with the back-end team to ensure data integrity and efficient retrieval. </prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">It sounds like you dealt with a significant amount of data.  You also mentioned a project involving SEO optimization.  What strategies did you employ and what were the outcomes?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">To counter declining traffic due to budget cuts, we focused on organic search optimization.  By automating the creation of over 100,000 landing pages based on country and product combinations, we significantly expanded our online presence.  Using tools like Amplitude and Google Search Console, we continuously tracked performance and identified areas for improvement. This resulted in a 10% increase in organic search traffic within a few months, demonstrating the effectiveness of our strategy.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">A 10% increase is quite impressive. You also mentioned improving operational efficiency through back-office development. Can you elaborate on this project and its impact?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">The existing system, relying on spreadsheets and Slack, was inefficient for our globally distributed team.  I consolidated these disparate tools into a centralized admin system, streamlining workflows and improving usability.  This significantly enhanced the user experience for internal staff and optimized processes, contributing to overall organizational efficiency.</prosody></Person2>
+
+<Person1> <prosody rate="medium" pitch="medium">These projects showcase your ability to tackle diverse challenges.  Finally, let's discuss your experience with UX improvements for seasonal traffic.  What approach did you take?</prosody></Person1>
+
+<Person2> <prosody rate="medium" pitch="high">This project required a resourceful approach due to the absence of a dedicated designer. I had to effectively communicate design concepts without visual aids, relying heavily on clear and concise descriptions.  This experience underscored the importance of effective communication and collaboration, especially in challenging circumstances.</prosody></Person2>
+
+
+<Person1> <prosody rate="medium" pitch="medium">It appears you’ve consistently sought opportunities to learn and grow, demonstrating a strong work ethic and a proactive approach to problem-solving. Thank you for sharing your experiences.  We appreciate you tuning in to TECH INTERVIEW SIMULATION!  We'll be back with more insightful conversations soon.  Goodbye!</prosody></Person1>
+```

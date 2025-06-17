@@ -1,0 +1,51 @@
+<Person1> Welcome to TECH INTERVIEW SIMULATION  - 당신의 기술적 여정을 들려주세요.  I'm eager to delve into your background and experience. Let's start with your involvement in these various communities and projects.</Person1>
+
+<Person2> Absolutely.  I've always been passionate about collaborative development, which is why I've been so involved in communities like NEXTERS, SIPE, and Depromeet. These provided invaluable opportunities to work alongside designers and other developers, honing my skills in a practical setting.  <emphasis level="moderate">My role in these communities wasn't just about participating; I took on leadership roles, like managing operations and finances for the 20th iteration of a project at 500CLUB.</emphasis>  That experience truly solidified my organizational and leadership abilities.
+</Person2>
+
+<Person1> <emphasis level="reduced">I see. Interesting.</emphasis>  It's impressive that you took initiative and established a thriving community with over 100 active members.  A 4.5/5 average satisfaction rating speaks volumes, as does being a community partner for Infcon 2024.  Tell me more about your role in the "Global Agricultural, Livestock, and Fishery Products Data Platform" project. Focusing on the front-end development aspects.
+</Person1>
+
+<Person2> Certainly.  <prosody rate="slow">That project was a deep dive into front-end development.</prosody> It allowed me to leverage my skills in web standard publishing and interactive programming, acquired during my studies at Kaywon University of Art & Design.  I particularly enjoyed the challenge of building a user-friendly and efficient platform for such a complex dataset.
+</Person2>
+
+<Person1> You mentioned taking courses in digital media prototyping, UX design, marketing & branding, and physical computing studio. How have these diverse skills contributed to your development as a developer? </Person1>
+
+<Person2> They've provided a holistic understanding of the development lifecycle, from ideation and design to implementation and user experience. <break time="0.1s"/>For instance, my UX design background helps me anticipate user needs and create more intuitive interfaces.  The marketing and branding knowledge informs my approach to presenting technical solutions to non-technical stakeholders.
+</Person2>
+
+<Person1>  Got it. Let's discuss the "Exercise Log-Based Social Network App" project you undertook as an intern.  What were your key contributions, and what did you learn from that experience? </Person1>
+
+<Person2> <prosody pitch="high">That internship was a fantastic opportunity to apply my skills in a real-world context.</prosody> I was responsible for both the planning and front-end development of the app.  It taught me the importance of agile development and iterative design, as user feedback played a crucial role in shaping the final product.
+</Person2>
+
+<Person1>  You also mentioned contributing to over 10 projects and improving service quality. Can you elaborate on one specific project where you had a significant impact?  Perhaps the one involving SEO optimization?
+</Person1>
+
+<Person2> Yes, absolutely. The project aimed to address declining website traffic due to discontinued paid marketing and reduced language support.  My role was to build a system that automatically generated over 100,000 landing pages based on country and product combinations.  By leveraging tools like Amplitude and Google Search Console, I tracked performance and suggested improvements, ultimately leading to a 10% increase in organic traffic from Google search after sitemap registration in January 2025. <break time="0.15s"/> This demonstrated the power of SEO in driving sustainable user growth.
+</Person2>
+
+<Person1> That’s a significant achievement.  Optimizing for organic search traffic is crucial for long-term success. Tell me about your experience with back-office development and maintenance, specifically how you improved operational efficiency. </Person1>
+
+<Person2>  <prosody rate="medium">The challenge was to streamline a previously inefficient workflow where employees across the globe relied on Excel and Slack for tasks.</prosody>  I consolidated these disparate systems into an internal admin system, simplifying registration processes and enhancing usability. This significantly improved the internal user experience and optimized processes, contributing to overall organizational efficiency.
+</Person2>
+
+<Person1> <emphasis level="reduced">Interesting. I see.</emphasis>  So, you have a knack for identifying inefficiencies and implementing solutions.  The fact that you successfully navigated collaboration with diverse stakeholders also speaks highly of your communication and coordination skills.  Now, let's talk about the project where you led UX improvements to address seasonal traffic fluctuations. You mentioned a designer absence; how did you overcome that challenge?
+</Person1>
+
+<Person2>  That was a unique situation.  <prosody pitch="medium">With the designer unavailable, I had to rely heavily on clear communication and detailed documentation to convey the necessary design changes to the development team.</prosody> I created wireframes and mockups using readily available tools and actively sought feedback from stakeholders to ensure alignment before implementation.  It reinforced the importance of resourcefulness and adaptability in a dynamic project environment.
+</Person2>
+
+<Person1> Resourcefulness is a valuable trait in any developer. It seems you have a strong foundation in both technical skills and collaborative project experience. <break time="0.2s"/> What are your aspirations for the future, and how do you see yourself growing as a developer? </Person1>
+
+<Person2> I’m eager to continue honing my front-end development skills and delve deeper into areas like performance optimization and accessibility.  I’m also fascinated by the potential of emerging technologies and how they can enhance user experiences.  Ultimately, I aspire to lead and contribute to projects that have a positive impact, leveraging technology to solve real-world problems.
+</Person2>
+
+<Person1>  <emphasis level="moderate">That's a commendable goal.</emphasis>  Your passion for continuous learning and your focus on user-centric development are impressive.  Thank you for sharing your experiences and insights with us today. It’s been a pleasure learning about your journey.
+</Person1>
+
+<Person2> Thank you for the opportunity. It was a pleasure discussing my work and aspirations with you.
+</Person2>
+
+<Person1>  And to our listeners, thank you for joining us for another episode of TECH INTERVIEW SIMULATION.  We hope you found this conversation insightful and inspiring. Until next time, keep innovating!
+</Person1>
