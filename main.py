@@ -103,7 +103,7 @@ INTERVIEW_PRESETS = {
 
 def generate_interview_podcast_original_way(
     text_input: str,
-    gemini_key: Optional[str] = None,
+    gemini_key: str,
     openai_key: Optional[str] = None,
     elevenlabs_key: Optional[str] = None,
     tts_model: str = "openai",
@@ -117,14 +117,20 @@ def generate_interview_podcast_original_way(
     
     logger.info("Starting podcast generation process (Original Gradio Way)")
     
-    # API key handling (기존 방식)
-    logger.debug("Setting API keys")
-    if gemini_key:
-        os.environ["GEMINI_API_KEY"] = gemini_key
+    # API key validation
+    if not gemini_key:
+        raise ValueError("GEMINI_API_KEY is required")
     
-    if tts_model == "openai" and openai_key:
+    if tts_model == "openai" and not openai_key:
+        raise ValueError("OPENAI_API_KEY is required for OpenAI TTS")
+    elif tts_model == "elevenlabs" and not elevenlabs_key:
+        raise ValueError("ELEVENLABS_API_KEY is required for ElevenLabs TTS")
+    
+    # API keys 설정
+    os.environ["GEMINI_API_KEY"] = gemini_key
+    if openai_key:
         os.environ["OPENAI_API_KEY"] = openai_key
-    elif tts_model == "elevenlabs" and elevenlabs_key:
+    if elevenlabs_key:
         os.environ["ELEVENLABS_API_KEY"] = elevenlabs_key
     
     # 면접 유형별 설정
@@ -338,40 +344,49 @@ async def generate_podcast_endpoint(
     tts_model: str = Form(default="openai"),
     word_count: int = Form(default=2000),
     creativity_level: float = Form(default=0.7),
-    gemini_api_key: Optional[str] = Form(default=None),
-    openai_api_key: Optional[str] = Form(default=None),
-    elevenlabs_api_key: Optional[str] = Form(default=None),
+    gemini_api_key: str = Form(...),
+    openai_api_key: Optional[str] = Form(None),
+    elevenlabs_api_key: Optional[str] = Form(None),
 ):
-    """팟캐스트 생성 시작"""
-    try:
-        task_id = str(uuid.uuid4())
-        
-        active_tasks[task_id] = {
-            "status": "started",
-            "progress": 0,
-            "message": "팟캐스트 생성을 시작합니다...",
-            "created_at": datetime.now().isoformat(),
-            "audio_file": None,
-            "error": None
-        }
-        
-        background_tasks.add_task(
-            generate_podcast_background,
-            task_id, resume_text, interview_type, difficulty_level,
-            tts_model, word_count, creativity_level,
-            gemini_api_key, openai_api_key, elevenlabs_api_key
-        )
-        
-        return {"task_id": task_id, "message": "팟캐스트 생성이 시작되었습니다."}
-        
-    except Exception as e:
-        logger.error(f"팟캐스트 생성 시작 오류: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
+    """팟캐스트 생성 엔드포인트"""
+    task_id = str(uuid.uuid4())
+    
+    active_tasks[task_id] = {
+        "status": "started",
+        "progress": 0,
+        "message": "팟캐스트 생성을 시작합니다...",
+        "created_at": datetime.now().isoformat(),
+        "audio_file": None,
+        "error": None
+    }
+    
+    background_tasks.add_task(
+        generate_podcast_background,
+        task_id=task_id,
+        resume_text=resume_text,
+        interview_type=interview_type,
+        difficulty_level=difficulty_level,
+        tts_model=tts_model,
+        word_count=word_count,
+        creativity_level=creativity_level,
+        gemini_key=gemini_api_key,
+        openai_key=openai_api_key,
+        elevenlabs_key=elevenlabs_api_key
+    )
+    
+    return {"task_id": task_id, "message": "팟캐스트 생성이 시작되었습니다."}
 
 async def generate_podcast_background(
-    task_id: str, resume_text: str, interview_type: str, difficulty_level: str,
-    tts_model: str, word_count: int, creativity_level: float,
-    gemini_key: Optional[str], openai_key: Optional[str], elevenlabs_key: Optional[str]
+    task_id: str,
+    resume_text: str,
+    interview_type: str,
+    difficulty_level: str,
+    tts_model: str,
+    word_count: int,
+    creativity_level: float,
+    gemini_key: str,
+    openai_key: Optional[str],
+    elevenlabs_key: Optional[str],
 ):
     """백그라운드 팟캐스트 생성"""
     try:
